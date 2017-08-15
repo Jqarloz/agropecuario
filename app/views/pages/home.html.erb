@@ -1,0 +1,12 @@
+<div class="jumbotron center">
+	<h1>Bienvenido a Dirección Agropecuaria</h1>
+
+	<% if user_signed_in? %>
+      <%= link_to 'Cerrar Sesión', destroy_user_session_path, method: :delete, class:'btn btn-danger btn-lg' %>
+      <%= link_to 'Ver registros', solicituds_path, class:'btn btn-success btn-lg' %>
+    <% else %>
+      <%= link_to "Iniciar Sesión", new_user_session_path, class:'btn btn-success btn-lg' %>
+    <% end %>
+	
+</div>
+

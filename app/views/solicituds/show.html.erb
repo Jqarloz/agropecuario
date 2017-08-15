@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @solicitud.nombre %>
+</p>
+
+<p>
+  <strong>Apellidos:</strong>
+  <%= @solicitud.ap %>
+</p>
+
+<p>
+  <strong>Edad:</strong>
+  <%= @solicitud.edad %>
+</p>
+
+<p>
+  <strong>Dirección:</strong>
+  <%= @solicitud.direccion %>
+</p>
+
+<p>
+  <strong>Teléfono:</strong>
+  <%= @solicitud.telefono %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @solicitud.email %>
+</p>
+
+<p>
+  <strong>Programa:</strong>
+  <%= @solicitud.programa %>
+</p>
+
+<%= link_to 'Editar', edit_solicitud_path(@solicitud) %> |
+<%= link_to 'Volver', solicituds_path %>

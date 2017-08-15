@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Agropecuarios</title>
+  </head>
+  <body>
+
+    <div class="loader"></div>
+    <div id="myDiv">
+    <!--HEADER-->
+    <div class="header">
+      <div class="bg-color">
+        <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="banner-info text-center wow fadeIn delay-05s">
+              <h1 class="bnr-title"><span> Dirección de desarrollo Agropecuario</span></h1>
+              <h2 class="bnr-sub-title">San Damian Texoloc,Tlaxcala</h2>
+              <p class="bnr-para">*******************</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--/ HEADER-->
+    <!---->
+   <section id="feature" class="section-padding wow fadeIn delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="service-item">
+              <center><h3><span>Conocenos</span></h3></center>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12" >
+            <div class="wrap-item text-center">
+                <h3 class="pad-bt15">Misión </h3>
+                 <p><br>Planear e impulsar el desarrollo integral y sustentable de las actividades agropecuarias y forestales,
+    			       <br> con visión empresarial y responsabilidad social, para contribuir al mejoramiento de las condiciones de vida de los 
+    			       productores del campo mexiquense y a la seguridad alimentaria.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="wrap-item text-center">
+              <h3 class="pad-bt15">Visión </h3>
+              <p><br>La Secretaría de Desarrollo Agropecuario será una agrupación que logre impulsar, 
+      			  desarrollar y fortalecer las acciones e iniciativas,<br> preferentemente en zonas con potencial productivo medio y alto, 
+      			  en cultivos <br>propiciando la participación de los tres niveles de gobierno, el sector privado, los productores y sus organizaciones, 
+      			  en el cambio de paradigmas que requiere el campo mexiquense, ante las nuevas realidades del mundo globalizado.</p>
+            </div>
+          </div>
+    </section>    
+    <!---->
+    <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Proyectos Aplicados</h2>
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+            <%= image_tag "evi1.jpg", :width => "450", :height => "300" %>
+              <figcaption>
+                  <h2>Proyecto de Semilla</h2>
+                  <p>Se siembran alrededor de 130 hectáreas de maíz,zacate,sorgo y alfalfa, 
+        				  plantaciones que se encuentran en un radio aproximado de 3km, beneficiando
+        				  al sector de ganado.</p>
+                  <br>
+                  <center>
+                  <%= link_to 'Ver Más', semilla_path, :class => "btn btn-default btn-lg" %>
+                  </center>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+            	<%= image_tag "conf.jpg", :width => "450", :height => "300" %>
+              <figcaption>
+                  <h2>Gente emprendedora</h2>
+                  <p>Se capacitan a las personas para que pueda generar una mejor produccion, 
+				          se da a conocer los factores que intervienen en el proceso para tener mayores beneficios .</p>
+                  <br>
+                  <center>
+                  <%= link_to 'Ver Más', emprendedor_path, :class => "btn btn-default btn-lg" %>
+                  </center>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+            	<%= image_tag "evi3.jpg", :width => "450", :height => "300" %>
+              <figcaption>
+                  <h2>Produccion de Maiz</h2>
+                  <p>Cada año se beneficia a la poblacion con la siembra de maiz hibrido .</p>
+                  <br>
+                  <center>
+                  <%= link_to 'Ver Más', maiz_path, :class => "btn btn-default btn-lg" %>
+                  </center>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 portfolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <%= image_tag "nota.jpg", :width => "450", :height => "300"%>
+              <figcaption>
+                  <h2>Proyectos de fertilizantes</h2>
+                  <p>Se efectuar un análisis de suelos es determinar la oferta de nutrientes del lote, para que, junto con la extracción de nutrientes (demanda) se puede efectuar un balance y establecer las cantidades a agregar como fertilizantes.</p>
+                  <br>
+                  <center>
+                  <%= link_to 'Ver Más', fertilizante_path, :class => "btn btn-default btn-lg" %>
+                  </center>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <!---->
+   
+		
+		
+		
+    <!---->
+			<section id="contact" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center white">
+            <h2 class="service-title pad-bt15">Contacto</h2>
+            <hr class="bottom-line white-bg">
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="loction-info white">
+              <div class="container">
+                <span>
+                  <i class="fa fa-map-marker fa-fw pull-left fa-2x"></i><p>Calle No <br>San Damian Texoloc, Tlax.</p>
+                  <i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i><p>municipio@gmail.com</p>
+                  <i class="fa fa-phone fa-fw pull-left fa-2x"></i><p>cel: 233445555</p>
+                </span>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <%= image_tag "conf.jpg", class:"img-responsive"%>
+          </div>
+         
+            </div>
+          </div>
+    </section>
+    <!---->
+    <!----><br><br>
+    <footer id="footer" class="bg-foot">
+      <div class="container">
+        <div class="row text-center white">
+          <p> Creditos:</p>
+          <div class="credits">
+            <b>
+            <p>Elia Pluma Mixcoatl</p>
+            <p>Consuelo Tecpa García</p>
+            <p>Brizeida Nájera Visoso</p>
+            <p>Elizabeth Conde Netzathual</p>
+            </b>
+            <%= link_to 'Administrador', admin_path %>
+            <div class="container">
+              <%= link_to "Open modal", "#my-modal", :class => "btn", "data-toggle" => "modal" %>
+              <div class="modal hide fade" id="my-modal" title="My modal">
+                <div class="modal-header">
+                  <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                  <h3 id="myModalLabel">Modal header</h3>
+                </div>
+                <div class="modal-body">
+                  Modal Body
+                </div>
+                <div class="modal-footer">
+                  <button aria-hidden="true" class="btn" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <!---->
+  </div>
+  </body>
+</html>
